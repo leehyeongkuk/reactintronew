@@ -1,16 +1,20 @@
 function Navi(){
     const naviDb = [{
-                      naviText : "포트폴리오",
+                      naviText : "Portfolio",
                       naviLink : "#portfolio"
                     },
                     {
-                      naviText : "인물탐방",
+                      naviText : "About ME",
                       naviLink : "#me"
                                     },
                     {
-                      naviText : "사전인터뷰 및 제안",
+                      naviText : "Pre-Interview",
                       naviLink : "#preInterview"
-                                    }
+                                    },
+                    {
+                      naviText : "Contact ME",
+                      naviLink : "#contact"
+                                    },
                     ]
     return(
       <ul className="d-flex mb-0">
